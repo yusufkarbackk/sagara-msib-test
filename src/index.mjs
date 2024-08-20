@@ -11,7 +11,6 @@ const { Pool } = pg
 const PORT = process.env.PORT || 3000
 
 app.use(expresss.json())
-
 app.get('/', (request, response) => {
     response.send('hello sagara')
 })
