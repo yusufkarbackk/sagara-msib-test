@@ -71,7 +71,7 @@ app.patch('/api/sagara-store/:id', checkSchema(updateBajuVaidationSchema), async
     }
 
     try {
-        const query = `UPDATE baju SET ${setQuery} WHERE id = $${id} RETURNING *`;
+        const query = `UPDATE baju SET ${setQuery} WHERE id = $${fields.length + 1} RETURNING *`;
         const result = await pool.query(query, [...values, id]);
 
         if (result.rows.length === 0) {
