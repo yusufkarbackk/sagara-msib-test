@@ -1,0 +1,25 @@
+{
+  "name": "sagara-msib-test",
+  "version": "1.0.0",
+  "description": "Backend Project-based Test",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "mocha --exit tests/**/*.test.mjs",
+    "start:dev": "nodemon ./src/index.mjs",
+    "start": "node ./src/index.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "nodemon": "^3.1.4",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "sinon": "^18.0.0",
+    "supertest": "^7.0.0"
+  }
+}

@@ -6,7 +6,7 @@ Deskripsi
 Anda diminta untuk mengembangkan backend untuk sistem manajemen inventaris sebuah toko baju. Sistem ini harus dapat menangani pembaruan stok baju, penambahan baju baru, dan pencarian baju berdasarkan warna dan ukuran.
 
 Spesifikasi (WAJIB)
-- Sistem harus dapat menangani operasi CRUD untuk baju.
+- Sistem harus dapat menangani operasi CRUD untuk baju. 
 - Setiap baju memiliki atribut warna, ukuran, harga, dan stok.
 - Sistem harus dapat mencari baju berdasarkan warna dan ukuran.
 - Sistem harus dapat menambahkan stok baju.
